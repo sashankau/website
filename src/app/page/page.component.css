@@ -1,0 +1,62 @@
+:host {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+mat-card {
+    width:500px;
+    background: rgba(255,255,255,0.9);
+}
+
+mat-card-header {
+    color: #3f51b5;
+}
+
+mat-card-content {
+	color: #00ffff;
+    padding: 16px;
+}
+
+.fullBg {
+    z-index:0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.exhibitor_social_icon {
+  
+  background: #8000ff;
+  height: 40px;
+  width: 40px;
+  padding: 5px 10px 5px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.fa-facebook {
+  color: #205a0c;
+  padding: 20px;
+}
+
+.fa-envelope {
+	color: #205a0c;
+	padding: 20px;
+}
+
+.fa-twitter {
+	color: #205a0c;
+	padding: 20px;
+}
+
+.fa-github {
+	color: #205a0c;
+	padding: 20px;
+}
+
+.fa-linkedin-square {
+	color: #205a0c;
+	padding: 20px;
+}
+

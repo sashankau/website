@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body, app-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  overflow: hidden;
+  margin:0;
+}
+
+#overlay {
+		-moz-animation: overlay 1.5s 1.5s forwards;
+		-webkit-animation: overlay 1.5s 1.5s forwards;
+		-ms-animation: overlay 1.5s 1.5s forwards;
+		animation: overlay 1.5s 1.5s forwards;
+		background-attachment: fixed, fixed;
+		background-image: url("overlay-pattern.png"), url("overlay.svg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	
+	
+	#wrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	
